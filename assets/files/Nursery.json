@@ -1,0 +1,34 @@
+{
+    "Nursery": [
+        {
+            "name": "Nature Nursery",
+            "image": "https://indiagardening.com/directory/wp-content/uploads/2019/09/2-6-245x270.jpg",
+            "location" : "M.R.3, Regional Park, Choithram Mandi Square, Agra Bombay Rd, Indore 452001"
+        },
+        {
+            "name": "Jain Nursery",
+            "image": "https://indiagardening.com/directory/wp-content/uploads/2019/10/bestnurseryinindore2.jpg",
+            "location" : "114, AB Road, near Patel Motors, part 2, Vijay Nagar, Indore 452010"
+        },
+        {
+            "name": "Heera Shri Nursery",
+            "image": "https://indiagardening.com/directory/wp-content/uploads/2019/10/bestnurseryinindore3.jpg",
+            "location" : "New 60 feet Airport Road,Loknayak Nagar, Sukhdev Nagar, Indore 455006"
+        },
+        {
+            "name": "Shiva shiv Nursery",
+            "image": "https://indiagardening.com/directory/wp-content/uploads/2019/10/bestnurseryinindore4.jpg",
+            "location" : "Bicholi Mardana, front of Sahara city, Bypass Indore 452016"
+        },
+        {
+            "name": "Nita Nursery",
+            "image": "https://indiagardening.com/directory/wp-content/uploads/2019/09/5-4-245x270.jpg",
+            "location" : "DiaSpark Indotech, 61, BLC marg, near Lalbagh, Sudama Nagar Indore 452009"
+        },
+        {
+            "name": "Udhyantiki Nursery",
+            "image": "https://indiagardening.com/directory/wp-content/uploads/2019/10/bestnurseryinindore7.jpg",
+            "location" : "BRTS, Ahilyapur Doordarshan Kendra, Navlakha, Indore 452001"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "219782934351",
+    "project_id": "plantinfocaresystem",
+    "storage_bucket": "plantinfocaresystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219782934351:android:8f5fb703d8dc7f44e69f3a",
+        "android_client_info": {
+          "package_name": "com.PlantInfoCare.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219782934351-adbqjj2kja5lb41buj3uml15v5kgmnel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-yO256l8CeRB-YXisuH8Ic7LjvXKnqK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219782934351-adbqjj2kja5lb41buj3uml15v5kgmnel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
