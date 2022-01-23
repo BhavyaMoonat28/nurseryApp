@@ -16,11 +16,11 @@ class categoryTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 20),
+      padding: EdgeInsets.symmetric(horizontal: size.width * 0.053),
       child: Row(
         children: [
           Container(
-            padding: EdgeInsets.only(top: 8),
+            padding: EdgeInsets.only(top: size.height * 0.013),
             height: size.height * 0.06,
             width: size.width * 0.6,
             //color: Colors.green.shade300,
@@ -42,7 +42,8 @@ class categoryTitle extends StatelessWidget {
 class plantRow extends StatelessWidget {
   const plantRow({
     Key? key,
-    required this.list, this.press,
+    required this.list,
+    this.press,
   }) : super(key: key);
   final List<dynamic> list;
   final press;
@@ -51,9 +52,8 @@ class plantRow extends StatelessWidget {
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Row(children: [
-        for (var item in list) 
-          ItemTile(item: item)
-        
+        for (var item in list) ItemTile(item: item)
+
         // for (int i = 0; i < 3; i++)
         //   ItemTile(
         //     item: list[i],

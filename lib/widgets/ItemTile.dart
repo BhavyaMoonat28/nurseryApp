@@ -26,7 +26,8 @@ class ItemTile extends StatelessWidget {
           : Navigator.push(context,
               MaterialPageRoute(builder: (context) => PlantPage(item: item))),
       child: Container(
-        margin: EdgeInsets.symmetric(horizontal: 8, vertical: 7),
+        margin: EdgeInsets.symmetric(
+            horizontal: size.width * 0.0213, vertical: size.height * 0.0116),
         width: size.width * 0.4,
         // height: size.height * 0.3,
         child: Card(
@@ -39,21 +40,21 @@ class ItemTile extends StatelessWidget {
                   ? Image.asset(
                       'assets/images/plants/${item.image}',
                       width: size.width * 0.43,
-                      height: 120,
+                      height: size.height * 0.19,
                       fit: BoxFit.fill,
                     )
                   : Image.network(
                       item.image,
                       width: size.width * 0.4,
-                      height: 120,
+                      height: size.height * 0.19,
                       fit: BoxFit.fill,
                     ),
               Container(
-                // height: 36,
-                alignment: Alignment.center,
-                padding: item.name.length > 16
-                    ? EdgeInsets.all(0)
-                    : EdgeInsets.all(10),
+                height: size.height * 0.055,
+                //alignment: Alignment.center,
+                // padding: item.name.length > 16
+                //     ? EdgeInsets.all(0)
+                //     : EdgeInsets.all(size.height * 0.014),
                 width: size.width * 0.4,
                 decoration: BoxDecoration(
                     //color: Colors.white,
