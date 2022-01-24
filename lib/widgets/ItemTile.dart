@@ -29,7 +29,7 @@ class ItemTile extends StatelessWidget {
         margin: EdgeInsets.symmetric(
             horizontal: size.width * 0.0213, vertical: size.height * 0.0116),
         width: size.width * 0.4,
-        // height: size.height * 0.3,
+        // height: size.height * 0.256,
         child: Card(
           // margin: EdgeInsets.symmetric(horizontal: 5),
           shape:
