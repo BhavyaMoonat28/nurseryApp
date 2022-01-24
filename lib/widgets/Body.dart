@@ -68,7 +68,7 @@ class HomeContainer extends StatelessWidget {
     return Container(
       color: Colors.white54,
       margin: EdgeInsets.only(left: size.width * 0.04, right: 0),
-      height: size.height * 0.35,
+      height: size.height * 0.37,
       child: Column(
         children: [
           categoryTitle(
